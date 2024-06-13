@@ -7,8 +7,7 @@ The modification has been done to demonstrate cuda sample execution for quick an
 
 ## Key Concepts
 
-Performance Strategies
-Serial Executon of Multiple Kernels and Paraellel Execution of same number of Kernels 
+This example demonstrate time difference in executing multiple kernels serially and paralelly.
 
 ## Supported  Architectures Where this code has been executed successfuly.
 Device 0: "NVIDIA GeForce RTX 3060"
