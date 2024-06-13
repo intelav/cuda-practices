@@ -1,0 +1,258 @@
+[./conkern] - Starting...
+GPU Device 0: "Ampere" with compute capability 8.6
+
+> Detected Compute SM 8.6 hardware with 28 multi-processors
+deviceprop clockrate is =1792000
+in clock() , clock_count is 17920000
+in clock() , clock_count is 17920000
+in clock() , clock_count is 17920000
+in clock() , clock_count is 17920000
+in clock() , clock_count is 17920000
+in clock() , clock_count is 17920000
+in clock() , clock_count is 17920000
+in clock() , clock_count is 17920000
+in  clock(), d_o[0]=17920035
+in  clock(), d_o[0]=17920008
+in  clock(), d_o[0]=17920007
+in  clock(), d_o[0]=17920007
+in  clock(), d_o[0]=17920023
+in  clock(), d_o[0]=17920010
+in  clock(), d_o[0]=17920005
+in  clock(), d_o[0]=17920031
+ threadidx.x=0,i=0,mysum=17920035,blockDim.x=32,N=8,d_clocks[i]=17920035
+ threadidx.x=1,i=1,mysum=17920008,blockDim.x=32,N=8,d_clocks[i]=17920008
+ threadidx.x=2,i=2,mysum=17920007,blockDim.x=32,N=8,d_clocks[i]=17920007
+ threadidx.x=3,i=3,mysum=17920007,blockDim.x=32,N=8,d_clocks[i]=17920007
+ threadidx.x=4,i=4,mysum=17920023,blockDim.x=32,N=8,d_clocks[i]=17920023
+ threadidx.x=5,i=5,mysum=17920010,blockDim.x=32,N=8,d_clocks[i]=17920010
+ threadidx.x=6,i=6,mysum=17920005,blockDim.x=32,N=8,d_clocks[i]=17920005
+ threadidx.x=7,i=7,mysum=17920031,blockDim.x=32,N=8,d_clocks[i]=17920031
+ threadidx.x=0,s_slock=17920035
+ threadidx.x=1,s_slock=17920008
+ threadidx.x=2,s_slock=17920007
+ threadidx.x=3,s_slock=17920007
+ threadidx.x=4,s_slock=17920023
+ threadidx.x=5,s_slock=17920010
+ threadidx.x=6,s_slock=17920005
+ threadidx.x=7,s_slock=17920031
+ threadidx.x=8,s_slock=0
+ threadidx.x=9,s_slock=0
+ threadidx.x=10,s_slock=0
+ threadidx.x=11,s_slock=0
+ threadidx.x=12,s_slock=0
+ threadidx.x=13,s_slock=0
+ threadidx.x=14,s_slock=0
+ threadidx.x=15,s_slock=0
+ threadidx.x=16,s_slock=0
+ threadidx.x=17,s_slock=0
+ threadidx.x=18,s_slock=0
+ threadidx.x=19,s_slock=0
+ threadidx.x=20,s_slock=0
+ threadidx.x=21,s_slock=0
+ threadidx.x=22,s_slock=0
+ threadidx.x=23,s_slock=0
+ threadidx.x=24,s_slock=0
+ threadidx.x=25,s_slock=0
+ threadidx.x=26,s_slock=0
+ threadidx.x=27,s_slock=0
+ threadidx.x=28,s_slock=0
+ threadidx.x=29,s_slock=0
+ threadidx.x=30,s_slock=0
+ threadidx.x=31,s_slock=0
+else-case 0,0,threadidx.x=16,i=16
+else-case 0,0,threadidx.x=17,i=16
+else-case 0,0,threadidx.x=18,i=16
+else-case 0,0,threadidx.x=19,i=16
+else-case 0,0,threadidx.x=20,i=16
+else-case 0,0,threadidx.x=21,i=16
+else-case 0,0,threadidx.x=22,i=16
+else-case 0,0,threadidx.x=23,i=16
+else-case 0,0,threadidx.x=24,i=16
+else-case 0,0,threadidx.x=25,i=16
+else-case 0,0,threadidx.x=26,i=16
+else-case 0,0,threadidx.x=27,i=16
+else-case 0,0,threadidx.x=28,i=16
+else-case 0,0,threadidx.x=29,i=16
+else-case 0,0,threadidx.x=30,i=16
+else-case 0,0,threadidx.x=31,i=16
+before addition 17920035,0,threadidx.x=0,i=16
+before addition 17920008,0,threadidx.x=1,i=16
+before addition 17920007,0,threadidx.x=2,i=16
+before addition 17920007,0,threadidx.x=3,i=16
+before addition 17920023,0,threadidx.x=4,i=16
+before addition 17920010,0,threadidx.x=5,i=16
+before addition 17920005,0,threadidx.x=6,i=16
+before addition 17920031,0,threadidx.x=7,i=16
+before addition 0,0,threadidx.x=8,i=16
+before addition 0,0,threadidx.x=9,i=16
+before addition 0,0,threadidx.x=10,i=16
+before addition 0,0,threadidx.x=11,i=16
+before addition 0,0,threadidx.x=12,i=16
+before addition 0,0,threadidx.x=13,i=16
+before addition 0,0,threadidx.x=14,i=16
+before addition 0,0,threadidx.x=15,i=16
+after addition 17920035,0,threadidx.x=0,i=16
+after addition 17920008,0,threadidx.x=1,i=16
+after addition 17920007,0,threadidx.x=2,i=16
+after addition 17920007,0,threadidx.x=3,i=16
+after addition 17920023,0,threadidx.x=4,i=16
+after addition 17920010,0,threadidx.x=5,i=16
+after addition 17920005,0,threadidx.x=6,i=16
+after addition 17920031,0,threadidx.x=7,i=16
+after addition 0,0,threadidx.x=8,i=16
+after addition 0,0,threadidx.x=9,i=16
+after addition 0,0,threadidx.x=10,i=16
+after addition 0,0,threadidx.x=11,i=16
+after addition 0,0,threadidx.x=12,i=16
+after addition 0,0,threadidx.x=13,i=16
+after addition 0,0,threadidx.x=14,i=16
+after addition 0,0,threadidx.x=15,i=16
+before addition 17920035,0,threadidx.x=0,i=8
+before addition 17920008,0,threadidx.x=1,i=8
+before addition 17920007,0,threadidx.x=2,i=8
+before addition 17920007,0,threadidx.x=3,i=8
+before addition 17920023,0,threadidx.x=4,i=8
+before addition 17920010,0,threadidx.x=5,i=8
+before addition 17920005,0,threadidx.x=6,i=8
+before addition 17920031,0,threadidx.x=7,i=8
+after addition 17920035,0,threadidx.x=0,i=8
+after addition 17920008,0,threadidx.x=1,i=8
+after addition 17920007,0,threadidx.x=2,i=8
+after addition 17920007,0,threadidx.x=3,i=8
+after addition 17920023,0,threadidx.x=4,i=8
+after addition 17920010,0,threadidx.x=5,i=8
+after addition 17920005,0,threadidx.x=6,i=8
+after addition 17920031,0,threadidx.x=7,i=8
+else-case 0,0,threadidx.x=8,i=8
+else-case 0,0,threadidx.x=9,i=8
+else-case 0,0,threadidx.x=10,i=8
+else-case 0,0,threadidx.x=11,i=8
+else-case 0,0,threadidx.x=12,i=8
+else-case 0,0,threadidx.x=13,i=8
+else-case 0,0,threadidx.x=14,i=8
+else-case 0,0,threadidx.x=15,i=8
+else-case 0,0,threadidx.x=16,i=8
+else-case 0,0,threadidx.x=17,i=8
+else-case 0,0,threadidx.x=18,i=8
+else-case 0,0,threadidx.x=19,i=8
+else-case 0,0,threadidx.x=20,i=8
+else-case 0,0,threadidx.x=21,i=8
+else-case 0,0,threadidx.x=22,i=8
+else-case 0,0,threadidx.x=23,i=8
+else-case 0,0,threadidx.x=24,i=8
+else-case 0,0,threadidx.x=25,i=8
+else-case 0,0,threadidx.x=26,i=8
+else-case 0,0,threadidx.x=27,i=8
+else-case 0,0,threadidx.x=28,i=8
+else-case 0,0,threadidx.x=29,i=8
+else-case 0,0,threadidx.x=30,i=8
+else-case 0,0,threadidx.x=31,i=8
+before addition 17920035,17920023,threadidx.x=0,i=4
+before addition 17920008,17920010,threadidx.x=1,i=4
+before addition 17920007,17920005,threadidx.x=2,i=4
+before addition 17920007,17920031,threadidx.x=3,i=4
+after addition 35840058,17920023,threadidx.x=0,i=4
+after addition 35840018,17920010,threadidx.x=1,i=4
+after addition 35840012,17920005,threadidx.x=2,i=4
+after addition 35840038,17920031,threadidx.x=3,i=4
+else-case 17920023,0,threadidx.x=4,i=4
+else-case 17920010,0,threadidx.x=5,i=4
+else-case 17920005,0,threadidx.x=6,i=4
+else-case 17920031,0,threadidx.x=7,i=4
+else-case 0,0,threadidx.x=8,i=4
+else-case 0,0,threadidx.x=9,i=4
+else-case 0,0,threadidx.x=10,i=4
+else-case 0,0,threadidx.x=11,i=4
+else-case 0,0,threadidx.x=12,i=4
+else-case 0,0,threadidx.x=13,i=4
+else-case 0,0,threadidx.x=14,i=4
+else-case 0,0,threadidx.x=15,i=4
+else-case 0,0,threadidx.x=16,i=4
+else-case 0,0,threadidx.x=17,i=4
+else-case 0,0,threadidx.x=18,i=4
+else-case 0,0,threadidx.x=19,i=4
+else-case 0,0,threadidx.x=20,i=4
+else-case 0,0,threadidx.x=21,i=4
+else-case 0,0,threadidx.x=22,i=4
+else-case 0,0,threadidx.x=23,i=4
+else-case 0,0,threadidx.x=24,i=4
+else-case 0,0,threadidx.x=25,i=4
+else-case 0,0,threadidx.x=26,i=4
+else-case 0,0,threadidx.x=27,i=4
+else-case 0,0,threadidx.x=28,i=4
+else-case 0,0,threadidx.x=29,i=4
+else-case 0,0,threadidx.x=30,i=4
+else-case 0,0,threadidx.x=31,i=4
+before addition 35840058,35840012,threadidx.x=0,i=2
+before addition 35840018,35840038,threadidx.x=1,i=2
+after addition 71680070,35840012,threadidx.x=0,i=2
+after addition 71680056,35840038,threadidx.x=1,i=2
+else-case 35840012,17920023,threadidx.x=2,i=2
+else-case 35840038,17920010,threadidx.x=3,i=2
+else-case 17920023,17920005,threadidx.x=4,i=2
+else-case 17920010,17920031,threadidx.x=5,i=2
+else-case 17920005,0,threadidx.x=6,i=2
+else-case 17920031,0,threadidx.x=7,i=2
+else-case 0,0,threadidx.x=8,i=2
+else-case 0,0,threadidx.x=9,i=2
+else-case 0,0,threadidx.x=10,i=2
+else-case 0,0,threadidx.x=11,i=2
+else-case 0,0,threadidx.x=12,i=2
+else-case 0,0,threadidx.x=13,i=2
+else-case 0,0,threadidx.x=14,i=2
+else-case 0,0,threadidx.x=15,i=2
+else-case 0,0,threadidx.x=16,i=2
+else-case 0,0,threadidx.x=17,i=2
+else-case 0,0,threadidx.x=18,i=2
+else-case 0,0,threadidx.x=19,i=2
+else-case 0,0,threadidx.x=20,i=2
+else-case 0,0,threadidx.x=21,i=2
+else-case 0,0,threadidx.x=22,i=2
+else-case 0,0,threadidx.x=23,i=2
+else-case 0,0,threadidx.x=24,i=2
+else-case 0,0,threadidx.x=25,i=2
+else-case 0,0,threadidx.x=26,i=2
+else-case 0,0,threadidx.x=27,i=2
+else-case 0,0,threadidx.x=28,i=2
+else-case 0,0,threadidx.x=29,i=2
+else-case 0,0,threadidx.x=30,i=2
+else-case 0,0,threadidx.x=31,i=2
+before addition 71680070,71680056,threadidx.x=0,i=1
+after addition 143360126,71680056,threadidx.x=0,i=1
+else-case 71680056,35840012,threadidx.x=1,i=1
+else-case 35840012,35840038,threadidx.x=2,i=1
+else-case 35840038,17920023,threadidx.x=3,i=1
+else-case 17920023,17920010,threadidx.x=4,i=1
+else-case 17920010,17920005,threadidx.x=5,i=1
+else-case 17920005,17920031,threadidx.x=6,i=1
+else-case 17920031,0,threadidx.x=7,i=1
+else-case 0,0,threadidx.x=8,i=1
+else-case 0,0,threadidx.x=9,i=1
+else-case 0,0,threadidx.x=10,i=1
+else-case 0,0,threadidx.x=11,i=1
+else-case 0,0,threadidx.x=12,i=1
+else-case 0,0,threadidx.x=13,i=1
+else-case 0,0,threadidx.x=14,i=1
+else-case 0,0,threadidx.x=15,i=1
+else-case 0,0,threadidx.x=16,i=1
+else-case 0,0,threadidx.x=17,i=1
+else-case 0,0,threadidx.x=18,i=1
+else-case 0,0,threadidx.x=19,i=1
+else-case 0,0,threadidx.x=20,i=1
+else-case 0,0,threadidx.x=21,i=1
+else-case 0,0,threadidx.x=22,i=1
+else-case 0,0,threadidx.x=23,i=1
+else-case 0,0,threadidx.x=24,i=1
+else-case 0,0,threadidx.x=25,i=1
+else-case 0,0,threadidx.x=26,i=1
+else-case 0,0,threadidx.x=27,i=1
+else-case 0,0,threadidx.x=28,i=1
+else-case 0,0,threadidx.x=29,i=1
+else-case 0,0,threadidx.x=30,i=1
+else-case 0,0,threadidx.x=31,i=1
+Expected time for serial execution of 8 kernels = 0.080s
+Expected time for concurrent execution of 8 kernels = 0.010s
+Measured time for sample = 0.013s
+total clock counters  while running 8 kernels  concurrently =143360126
+total clock counters while running  8 kernels serially =143360000
+Test passed

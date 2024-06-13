@@ -1,0 +1,74 @@
+CUDA Clock sample
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Assigned values for input[0]=1804289408.000000
+Assigned values for input[1]=846930880.000000
+Assigned values for input[2]=1681692800.000000
+Assigned values for input[3]=1714636928.000000
+Assigned values for input[4]=1957747840.000000
+Assigned values for input[5]=424238336.000000
+Assigned values for input[6]=719885376.000000
+Assigned values for input[7]=1649760512.000000
+Assigned values for input[8]=596516672.000000
+Assigned values for input[9]=1189641472.000000
+Assigned values for input[10]=1025202368.000000
+Assigned values for input[11]=1350489984.000000
+Assigned values for input[12]=783368704.000000
+Assigned values for input[13]=1102520064.000000
+Assigned values for input[14]=2044897792.000000
+Assigned values for input[15]=1967513984.000000
+value of threadix.x=0,blockidx.x=0,blockdim.x=8,gridDim.x=2
+value of threadix.x=1,blockidx.x=0,blockdim.x=8,gridDim.x=2
+value of threadix.x=2,blockidx.x=0,blockdim.x=8,gridDim.x=2
+value of threadix.x=3,blockidx.x=0,blockdim.x=8,gridDim.x=2
+value of threadix.x=4,blockidx.x=0,blockdim.x=8,gridDim.x=2
+value of threadix.x=5,blockidx.x=0,blockdim.x=8,gridDim.x=2
+value of threadix.x=6,blockidx.x=0,blockdim.x=8,gridDim.x=2
+value of threadix.x=7,blockidx.x=0,blockdim.x=8,gridDim.x=2
+value of threadix.x=0,blockidx.x=1,blockdim.x=8,gridDim.x=2
+value of threadix.x=1,blockidx.x=1,blockdim.x=8,gridDim.x=2
+value of threadix.x=2,blockidx.x=1,blockdim.x=8,gridDim.x=2
+value of threadix.x=3,blockidx.x=1,blockdim.x=8,gridDim.x=2
+value of threadix.x=4,blockidx.x=1,blockdim.x=8,gridDim.x=2
+value of threadix.x=5,blockidx.x=1,blockdim.x=8,gridDim.x=2
+value of threadix.x=6,blockidx.x=1,blockdim.x=8,gridDim.x=2
+value of threadix.x=7,blockidx.x=1,blockdim.x=8,gridDim.x=2
+Start time for Block=1 is 2652533877.000000
+Start time for Block=0 is 2652588425.000000
+shared[tid]=0.000000, f0=1804289408.000000,f1=0.000000,d=8,tid=0
+shared[tid]=0.000000, f0=846930880.000000,f1=0.000000,d=8,tid=1
+shared[tid]=0.000000, f0=1681692800.000000,f1=0.000000,d=8,tid=2
+shared[tid]=0.000000, f0=1714636928.000000,f1=0.000000,d=8,tid=3
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=8,tid=4
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=8,tid=5
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=8,tid=6
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=8,tid=7
+shared[tid]=0.000000, f0=1804289408.000000,f1=0.000000,d=8,tid=0
+shared[tid]=0.000000, f0=846930880.000000,f1=0.000000,d=8,tid=1
+shared[tid]=0.000000, f0=1681692800.000000,f1=0.000000,d=8,tid=2
+shared[tid]=0.000000, f0=1714636928.000000,f1=0.000000,d=8,tid=3
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=8,tid=4
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=8,tid=5
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=8,tid=6
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=8,tid=7
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=4,tid=0
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=4,tid=1
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=4,tid=2
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=4,tid=3
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=4,tid=0
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=4,tid=1
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=4,tid=2
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=4,tid=3
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=2,tid=0
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=2,tid=1
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=2,tid=0
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=2,tid=1
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=1,tid=0
+shared[tid]=0.000000, f0=0.000000,f1=0.000000,d=1,tid=0
+Minimum value for Block 0 is output[bid]=0.000000
+Minimum value for Block 1 is output[bid]=0.000000
+Completion Time for Block 0 is 2653008699.000000
+Completion Time for Block 1 is 2652959271.000000
+Host recevied clocks consumed for Block 0 Completed=2653008699.000000,Entered=2652588425.000000,avgElapsedClocks=420274.000000
+Host recevied clocks consumed for Block 1 Completed=2652959271.000000,Entered=2652533877.000000,avgElapsedClocks=425394.000000
+Average clocks/block = 422834.000000
