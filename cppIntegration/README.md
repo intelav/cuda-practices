@@ -7,7 +7,7 @@ The modification has been done to demonstrate cuda sample execution for quick an
 
 ## Key Concepts
 
-Demonstrating the cpp integration of CUDA Kernel by writing a simple array of "Hello World"  using scalar and vector data types. For Scalar type, the 16 byte data has been grouped in 4 bytes each  which will be executed by one thread . There would be total 4 threads for scalar type.  The vector type data is being executed using 16 threads where each thread is executed a single byte . 
+Demonstrating the cpp integration of CUDA Kernel by writing a simple array of "Hello World"  using scalar and vector data types. For Scalar type, the 16 byte data has been grouped in 4 bytes each  which will be executed by one thread . There would be total 4 threads for scalar type.  The vector  data type is being executed using 16 threads where each thread is executing a single byte . 
 
 ## Supported  Architectures Where this code has been executed successfuly.
 Device 0: "NVIDIA GeForce RTX 3060"
@@ -29,4 +29,3 @@ Start (ns)   Duration (ns)  CorrId  GrdX  GrdY  GrdZ  BlkX  BlkY  BlkZ  Reg/Trd 
  291,685,531          1,440     134                                                                                0.000             11.111  Device    Pageable  NVIDIA GeForce RTX 3060 (0)    1               7  [CUDA memcpy Device-to-Host]
  291,741,467          1,280     135                                                                                0.000            100.000  Device    Pageable  NVIDIA GeForce RTX 3060 (0)    1               7  [CUDA memcpy Device-to-Host]
 
-Generated:
