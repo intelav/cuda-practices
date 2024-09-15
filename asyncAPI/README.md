@@ -1,4 +1,4 @@
-# AsyncAPI - Demonstrating Asynchornicity between CPU and GPU exeucution
+# asyncAPI - Demonstrating Asynchornicity between CPU and GPU execution
 
 ## Description
 
