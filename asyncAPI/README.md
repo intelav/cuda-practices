@@ -21,8 +21,10 @@ time spent by CPU in CUDA calls: 25.93 ms
 CPU executed 129240 iterations while waiting for GPU to finish
 time spent by CPU in incrementing operations: 44.06 ms
 ```
-Note **47.30 ms by GPU** and **44.06 ms by CPU**
-### Memory Copy takes most of the time (comment the memory copy operations)!!
+1. Note **47.30 ms by GPU** and **44.06 ms by CPU**
+2. Isn't Weird !!
+   
+### Here Memory Copy takes most of the time (comment the memory copy operations)!!
 ``` [./asyncAPI] - Starting...
 GPU Device 0: "Ampere" with compute capability 8.6
 
