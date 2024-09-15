@@ -6,7 +6,7 @@ The reference for this sample has been taken from https://github.com/NVIDIA/cuda
 
 ### How is it different from original Sample from Nvidia
 
-For better understanding , it prints outputs by showing the difference between CPU execution time and GPU Execution time beside showing overlaps also. 
+For better understanding , it prints outputs by showing the difference between CPU execution time and GPU execution time beside showing overlap in execution. 
 Extra code of cpucheck() has been added here.
 
 ```
