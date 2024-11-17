@@ -15,8 +15,8 @@ TARGET_SIZE := 64 # 64-bit machine
 # internal flags
 NVCCFLAGS   := -m${TARGET_SIZE}
 CCFLAGS     :=
-LDFLAGS     :=
-
+LDFLAGS     := -Map
+EXTRA_LDFLAGS := output.map
 # Debug build flags
 ifeq ($(dbg),1)
       NVCCFLAGS += -g -G
@@ -47,7 +47,7 @@ ALL_CCFLAGS += $(EXTRA_NVCCFLAGS)
 ALL_CCFLAGS += $(addprefix -Xcompiler ,$(CCFLAGS))
 ALL_CCFLAGS += $(addprefix -Xcompiler ,$(EXTRA_CCFLAGS))
 
-ALL_LDFLAGS :=
+ALL_LDFLAGS := 
 ALL_LDFLAGS += $(ALL_CCFLAGS)
 ALL_LDFLAGS += $(addprefix -Xlinker ,$(LDFLAGS))
 ALL_LDFLAGS += $(addprefix -Xlinker ,$(EXTRA_LDFLAGS))
